@@ -8,7 +8,8 @@ namespace SonoranSunset
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        Scene.Scene Menu;
+        Scene.Scene menu;
+        Scene.Scene level;
 
         public Game()
         {
@@ -17,12 +18,16 @@ namespace SonoranSunset
         }
         protected override void Initialize()
         {
+            menu = new Scene.Scene();
+            level = new Scene.Scene();
 
+            Scene.Scene.current = level;
             base.Initialize();
         }
 
         protected override void LoadContent()
         {
+            level.background = Content.Load<Texture2D>("Untitled");
             spriteBatch = new SpriteBatch(GraphicsDevice);
         }
 
@@ -37,11 +42,15 @@ namespace SonoranSunset
                 Exit();
 
             base.Update(gameTime);
+            Scene.Scene.current.Update();
         }
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.AliceBlue);
+            spriteBatch.Begin();
+            spriteBatch.Draw(Scene.Scene.current.background, new Rectangle(0,0,graphics.GraphicsDevice.DisplayMode.Width, graphics.GraphicsDevice.DisplayMode.Height), new Rectangle(0, 255 - Scene.Scene.current.getTime(), 1, 1),Color.White);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }

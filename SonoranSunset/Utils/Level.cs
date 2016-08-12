@@ -8,5 +8,9 @@ namespace SonoranSunset.Utils
 {
     class Level
     {
+        public static void load()
+        {
+
+        } 
     }
 }

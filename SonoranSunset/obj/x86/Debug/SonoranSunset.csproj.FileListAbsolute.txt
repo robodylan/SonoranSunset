@@ -1,0 +1,10 @@
+C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\obj\x86\Debug\SonoranSunset.csprojResolveAssemblyReference.cache
+C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\bin\DesktopGL\x86\Debug\OpenTK.dll.config
+C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\bin\DesktopGL\x86\Debug\SonoranSunset.exe
+C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\bin\DesktopGL\x86\Debug\SonoranSunset.pdb
+C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\bin\DesktopGL\x86\Debug\MonoGame.Framework.dll
+C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\bin\DesktopGL\x86\Debug\NVorbis.dll
+C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\bin\DesktopGL\x86\Debug\OpenTK.dll
+C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\obj\x86\Debug\SonoranSunset.exe
+C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\obj\x86\Debug\SonoranSunset.pdb
+C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\bin\DesktopGL\x86\Debug\Content\Untitled.xnb
