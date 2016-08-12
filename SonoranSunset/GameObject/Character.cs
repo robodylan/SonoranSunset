@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SonoranSunset.GameObject
 {
-    class NPC
+    class Character : GameObject
     {
+        public Character(int x, int y) : base(x, y)
+        {
+        }
     }
 }

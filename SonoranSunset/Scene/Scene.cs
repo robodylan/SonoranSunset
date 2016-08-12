@@ -25,12 +25,12 @@ namespace SonoranSunset.Scene
             time++;
         }
 
-        private int getTime()
+        public int getTime()
         {
             return time / 1;
         }
 
-        private int setTime()
+        public int setTime()
         {
             return time / 1;
         }

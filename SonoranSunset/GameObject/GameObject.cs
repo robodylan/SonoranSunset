@@ -7,14 +7,18 @@ using System.Threading.Tasks;
 
 namespace SonoranSunset.GameObject
 {
-    class GameObject
+    abstract class GameObject
     {
         public int x;
         public int y;
         public Texture2D texture;
 
-        public GameObject()
+        public GameObject(int x, int y)
         {
+            this.x = x;
+            this.y = y;
         }
+
+        public abstract void Update();
     }
 }

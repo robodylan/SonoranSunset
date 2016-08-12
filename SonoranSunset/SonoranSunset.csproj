@@ -42,8 +42,7 @@
     <Compile Include="GameObject\Collider.cs" />
     <Compile Include="GameObject\GameObject.cs" />
     <Compile Include="GameObject\Interactive.cs" />
-    <Compile Include="GameObject\NPC.cs" />
-    <Compile Include="GameObject\PlayerController.cs" />
+    <Compile Include="GameObject\Character.cs" />
     <Compile Include="Entry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scene\Scene.cs" />

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace SonoranSunset.GameObject
 {
-    class Collider
+    class Collider : GameObject
     {
+        public Collider(int x, int y) : base(x, y)
+        {
+        }
     }
 }
