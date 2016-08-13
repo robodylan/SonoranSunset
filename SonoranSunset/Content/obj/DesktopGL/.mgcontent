@@ -4,6 +4,9 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/robod/Documents/GitHub/SonoranSunset/SonoranSunset/Content/Untitled.png</File>
+    <File>C:/Users/robod/Documents/GitHub/SonoranSunset/SonoranSunset/Content/Player.png</File>
+    <File>C:/Users/robod/Documents/GitHub/SonoranSunset/SonoranSunset/Content/House.png</File>
+    <File>C:/Users/robod/Documents/GitHub/SonoranSunset/SonoranSunset/Content/Ground.png</File>
+    <File>C:/Users/robod/Documents/GitHub/SonoranSunset/SonoranSunset/Content/Back.png</File>
   </SourceFiles>
 </SourceFileCollection>

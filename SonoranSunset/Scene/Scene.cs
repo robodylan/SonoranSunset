@@ -6,18 +6,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SonoranSunset.Scene
+namespace SonoranSunset
 {
     class Scene
     {
         public static Scene current;
 
         public Texture2D background;
-
+        public List<GameObject> gameObjects;
         private int time;
 
         public Scene()
         {
+            gameObjects = new List<GameObject>();
         }
 
         public void Update()
@@ -27,12 +28,12 @@ namespace SonoranSunset.Scene
 
         public int getTime()
         {
-            return time / 1;
+            return time / 1000;
         }
 
-        public int setTime()
+        public void setTime(int time)
         {
-            return time / 1;
+            this.time = time;
         }
     }
 }

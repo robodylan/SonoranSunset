@@ -7,4 +7,7 @@ C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\bin\DesktopGL\x86\De
 C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\bin\DesktopGL\x86\Debug\OpenTK.dll
 C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\obj\x86\Debug\SonoranSunset.exe
 C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\obj\x86\Debug\SonoranSunset.pdb
-C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\bin\DesktopGL\x86\Debug\Content\Untitled.xnb
+C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\bin\DesktopGL\x86\Debug\Content\Ground.xnb
+C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\bin\DesktopGL\x86\Debug\Content\Back.xnb
+C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\bin\DesktopGL\x86\Debug\Content\House.xnb
+C:\Users\robod\Documents\GitHub\SonoranSunset\SonoranSunset\bin\DesktopGL\x86\Debug\Content\Player.xnb
