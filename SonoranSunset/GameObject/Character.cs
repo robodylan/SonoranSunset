@@ -12,9 +12,9 @@ namespace SonoranSunset
     class Character : GameObject
     {
         private bool controlled;
-        private int width = 222;
-        private int height = 357;
-        private float frame = 0;
+        private int width = 241;
+        private int height = 373;
+        private int frame = 0;
         public Character(int x, int y, Texture2D texture, bool controlled) : base(x, y, texture, false)
         {
             this.controlled = controlled;
@@ -22,13 +22,17 @@ namespace SonoranSunset
 
         public override void Update(KeyboardState keyboard, List<GameObject> gameObjects)
         {
-            if(frame > (texture.Bounds.Width / width) * (texture.Bounds.Height / height))
+            /*if(frame > (texture.Bounds.Width / width) * (texture.Bounds.Height / height))
             {
                 frame = 0;
-            }
-            if (frame < 0)
+            }*/
+            if (frame > 46)
             {
-                frame = (texture.Bounds.Width / width) * (texture.Bounds.Height / height);
+                frame = 2;
+            }
+            if (frame < 2)
+            {
+                frame = 46;
             }
             if (controlled)
             {
@@ -37,13 +41,15 @@ namespace SonoranSunset
                 if (keyboard.IsKeyDown(Keys.A))
                 {
                     stepX = -1;
-                    frame -= 1;
+                    frame += 1;
+                    effect = SpriteEffects.FlipHorizontally;
                 }
 
                 if (keyboard.IsKeyDown(Keys.D))
                 {
                     stepX = +1;
                     frame += 1;
+                    effect = SpriteEffects.None;
                 }
                 Recurse:
                 bool collideX = false;
@@ -52,11 +58,13 @@ namespace SonoranSunset
                 {
                     if(obj.isCollider)
                     {
+                        y = y - 8;
                         Rectangle A = new Rectangle(x + stepX, y, width, height);
                         Rectangle B = new Rectangle(obj.x, obj.y, obj.texture.Width, obj.texture.Height);
                         if (A.Intersects(B)) collideX = true;
                         A = new Rectangle(x, y + stepY, width, height);
                         if (A.Intersects(B)) collideY = true;
+                        y = y + 8;
                     }
                 }
 
@@ -84,7 +92,7 @@ namespace SonoranSunset
 
         public override Rectangle getSourceRect()
         {
-            return new Rectangle(((int)frame % (texture.Width / width)) * width, (texture.Width / width) / ((int)frame + 1), width, height);
+            return new Rectangle((int)Math.Floor((double)((int)frame % 16) * width), (int)Math.Floor((double)((float)frame / 16f)) * height, width, height);
         }
     }
 }

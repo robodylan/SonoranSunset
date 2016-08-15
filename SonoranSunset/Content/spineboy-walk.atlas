@@ -1,0 +1,349 @@
+
+spineboy-walk.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spineboy-walk_0
+  rotate: false
+  xy: 0, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_1
+  rotate: false
+  xy: 241, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_10
+  rotate: false
+  xy: 2410, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_11
+  rotate: false
+  xy: 2651, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_12
+  rotate: false
+  xy: 2892, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_13
+  rotate: false
+  xy: 3133, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_14
+  rotate: false
+  xy: 3374, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_15
+  rotate: false
+  xy: 3615, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_16
+  rotate: false
+  xy: 0, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_17
+  rotate: false
+  xy: 241, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_18
+  rotate: false
+  xy: 482, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_19
+  rotate: false
+  xy: 723, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_2
+  rotate: false
+  xy: 482, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_20
+  rotate: false
+  xy: 964, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_21
+  rotate: false
+  xy: 1205, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_22
+  rotate: false
+  xy: 1446, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_23
+  rotate: false
+  xy: 1687, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_24
+  rotate: false
+  xy: 1928, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_25
+  rotate: false
+  xy: 2169, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_26
+  rotate: false
+  xy: 2410, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_27
+  rotate: false
+  xy: 2651, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_28
+  rotate: false
+  xy: 2892, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_29
+  rotate: false
+  xy: 3133, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_3
+  rotate: false
+  xy: 723, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_30
+  rotate: false
+  xy: 3374, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_31
+  rotate: false
+  xy: 3615, 373
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_32
+  rotate: false
+  xy: 0, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_33
+  rotate: false
+  xy: 241, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_34
+  rotate: false
+  xy: 482, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_35
+  rotate: false
+  xy: 723, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_36
+  rotate: false
+  xy: 964, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_37
+  rotate: false
+  xy: 1205, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_38
+  rotate: false
+  xy: 1446, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_39
+  rotate: false
+  xy: 1687, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_4
+  rotate: false
+  xy: 964, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_40
+  rotate: false
+  xy: 1928, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_41
+  rotate: false
+  xy: 2169, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_42
+  rotate: false
+  xy: 2410, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_43
+  rotate: false
+  xy: 2651, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_44
+  rotate: false
+  xy: 2892, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_45
+  rotate: false
+  xy: 3133, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_46
+  rotate: false
+  xy: 3374, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_47
+  rotate: false
+  xy: 3615, 746
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_48
+  rotate: false
+  xy: 0, 1119
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_5
+  rotate: false
+  xy: 1205, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_6
+  rotate: false
+  xy: 1446, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_7
+  rotate: false
+  xy: 1687, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_8
+  rotate: false
+  xy: 1928, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1
+spineboy-walk_9
+  rotate: false
+  xy: 2169, 0
+  size: 241, 373
+  orig: 241, 373
+  offset: 0, 0
+  index: -1

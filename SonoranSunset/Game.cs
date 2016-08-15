@@ -35,8 +35,8 @@ namespace SonoranSunset
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             Utils.Level.load(level, Content);
-            player = new Character(0,0, Content.Load<Texture2D>("Player"), true);
-            player.texture = Content.Load<Texture2D>("Player");
+            player = new Character(0,0, Content.Load<Texture2D>("spineboy-walk"), true);
+            //player.texture = Content.Load<Texture2D>("Player");
             level.gameObjects.Add(player);
 
             blank = new Texture2D(GraphicsDevice, 1, 1);
@@ -68,11 +68,11 @@ namespace SonoranSunset
             spriteBatch.Draw(Scene.current.background, new Rectangle(0,0,graphics.GraphicsDevice.DisplayMode.Width, graphics.GraphicsDevice.DisplayMode.Height), new Rectangle(0, 255 - Scene.current.getTime(), 1, 1), Color.White);
             foreach(GameObject obj in Scene.current. gameObjects)
             {
-                spriteBatch.Draw(obj.texture, new Vector2(obj.x - (player.x - ((1920 / 2) - (player.getSourceRect().Width / 2))), obj.y), obj.getSourceRect(), Color.White, 0f, new Vector2(0,0), 1f, SpriteEffects.None, 1);
+                spriteBatch.Draw(obj.texture, new Vector2(obj.x - (player.x - ((1920 / 2) - (player.getSourceRect().Width / 2))), obj.y), obj.getSourceRect(), Color.White, 0f, new Vector2(0,0), 1f, obj.effect, 1);
             }
 
             blank.SetData<Color>(new Color[] { new Color(Color.DarkOrange, 255) });
-            spriteBatch.Draw(blank, new Rectangle(0,0,800,600), new Color(Color.Black, Scene.current.getTime()));
+            spriteBatch.Draw(blank, new Rectangle(0,0,1920,1080), new Color(Color.Black, Scene.current.getTime()));
             spriteBatch.Draw(blank, new Rectangle(0, 0, 1920, 200), new Color(Color.Black, 255));
             spriteBatch.Draw(blank, new Rectangle(0, 1080 - 200, 1920, 1080), new Color(Color.Black, 255));
             spriteBatch.End();

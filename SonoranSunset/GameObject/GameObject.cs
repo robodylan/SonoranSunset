@@ -15,7 +15,7 @@ namespace SonoranSunset
         public int y;
         public Texture2D texture;
         public bool isCollider;
-
+        public SpriteEffects effect;
         public GameObject(int x, int y, Texture2D texture, bool isCollider)
         {
             this.x = x;
