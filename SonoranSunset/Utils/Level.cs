@@ -16,6 +16,7 @@ namespace SonoranSunset.Utils
             scene.background = content.Load<Texture2D>("Back");
             scene.gameObjects.Add(new Layer(-1080, 800, content.Load<Texture2D>("Ground"), true));
             scene.gameObjects.Add(new Layer(800, 60, content.Load<Texture2D>("House"), false));
+            scene.gameObjects.Add(new Interactive(800,500, content.Load<Texture2D>("Button"), false));
         } 
     }
 }

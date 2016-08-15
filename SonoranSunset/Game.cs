@@ -54,7 +54,7 @@ namespace SonoranSunset
 
             foreach (GameObject obj in Scene.current.gameObjects)
             {
-                obj.Update(Keyboard.GetState(), Scene.current.gameObjects);
+                obj.Update(Mouse.GetState(), Keyboard.GetState(), Scene.current.gameObjects);
             }
 
             Scene.current.Update();

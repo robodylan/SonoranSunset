@@ -20,7 +20,7 @@ namespace SonoranSunset
             this.controlled = controlled;
         }
 
-        public override void Update(KeyboardState keyboard, List<GameObject> gameObjects)
+        public override void Update(MouseState mouse, KeyboardState keyboard, List<GameObject> gameObjects)
         {
             /*if(frame > (texture.Bounds.Width / width) * (texture.Bounds.Height / height))
             {
@@ -28,9 +28,9 @@ namespace SonoranSunset
             }*/
             if (frame > 46)
             {
-                frame = 2;
+                frame = 0;
             }
-            if (frame < 2)
+            if (frame < 0)
             {
                 frame = 46;
             }
@@ -44,12 +44,18 @@ namespace SonoranSunset
                     frame += 1;
                     effect = SpriteEffects.FlipHorizontally;
                 }
-
-                if (keyboard.IsKeyDown(Keys.D))
+                else
                 {
-                    stepX = +1;
-                    frame += 1;
-                    effect = SpriteEffects.None;
+                    if (keyboard.IsKeyDown(Keys.D))
+                    {
+                        stepX = +1;
+                        frame += 1;
+                        effect = SpriteEffects.None;
+                    }
+                    else
+                    {
+                        frame = 0;
+                    }
                 }
                 Recurse:
                 bool collideX = false;
@@ -74,6 +80,7 @@ namespace SonoranSunset
                 }
                 else
                 {
+                    this.frame = 0;
                     stepX = stepX / 2;
                     if(stepX > 0) goto Recurse;
                 }

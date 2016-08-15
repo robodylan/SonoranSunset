@@ -9,9 +9,9 @@ using Microsoft.Xna.Framework;
 
 namespace SonoranSunset
 {
-    class Interactive : GameObject
+    class Item : GameObject
     {
-        public Interactive(int x, int y, Texture2D texture) : base(x, y, texture, false)
+        public Item(int x, int y, Texture2D texture) : base(x, y, texture, false)
         {
         }
 
@@ -20,7 +20,7 @@ namespace SonoranSunset
             throw new NotImplementedException();
         }
 
-        public override void Update(KeyboardState keyboard, List<GameObject> gameObjects)
+        public override void Update(MouseState mouse, KeyboardState keyboard, List<GameObject> gameObjects)
         {
             throw new NotImplementedException();
         }
