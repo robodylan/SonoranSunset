@@ -20,7 +20,7 @@ namespace SonoranSunset
             throw new NotImplementedException();
         }
 
-        public override void Update(MouseState mouse, KeyboardState keyboard, List<GameObject> gameObjects)
+        public override void Update(MouseState mouse, KeyboardState keyboard, List<GameObject> gameObjects, Character player)
         {
             throw new NotImplementedException();
         }

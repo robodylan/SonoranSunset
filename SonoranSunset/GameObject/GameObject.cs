@@ -24,7 +24,7 @@ namespace SonoranSunset
             this.isCollider = isCollider;
         }
 
-        public abstract void Update(MouseState mouse, KeyboardState keyboard, List<GameObject> gameObjects);
+        public abstract void Update(MouseState mouse, KeyboardState keyboard, List<GameObject> gameObjects, Character player);
         public abstract Rectangle getSourceRect();
     }
 }

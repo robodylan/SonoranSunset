@@ -20,7 +20,7 @@ namespace SonoranSunset
             this.controlled = controlled;
         }
 
-        public override void Update(MouseState mouse, KeyboardState keyboard, List<GameObject> gameObjects)
+        public override void Update(MouseState mouse, KeyboardState keyboard, List<GameObject> gameObjects, Character player)
         {
             /*if(frame > (texture.Bounds.Width / width) * (texture.Bounds.Height / height))
             {

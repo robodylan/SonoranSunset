@@ -16,7 +16,7 @@ namespace SonoranSunset
         {
         }
 
-        public override void Update(MouseState mouse, KeyboardState keyboard, List<GameObject> gameObjects)
+        public override void Update(MouseState mouse, KeyboardState keyboard, List<GameObject> gameObjects, Character player)
         {
         }
 

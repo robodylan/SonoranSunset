@@ -15,16 +15,18 @@ namespace SonoranSunset
         {
         }
 
-        public override void Update(MouseState mouse, KeyboardState keyboard, List<GameObject> gameObjects)
+        public override void Update(MouseState mouse, KeyboardState keyboard, List<GameObject> gameObjects, Character player)
         {
-            if(mouse.LeftButton == ButtonState.Pressed)
+            /*Vector2 playerPosition = new Vector2();
+            Vector2 mousePosition = new Vector2();
+            if()
             {
                 this.isCollider = true;
             }
-            if (mouse.LeftButton == ButtonState.Released)
+            else
             {
                 this.isCollider = false;
-            }
+            }*/
         }
 
         public override Rectangle getSourceRect()
