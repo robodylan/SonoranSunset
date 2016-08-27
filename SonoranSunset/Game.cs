@@ -68,7 +68,7 @@ namespace SonoranSunset
             spriteBatch.Draw(Scene.current.background, new Rectangle(0,0,graphics.GraphicsDevice.DisplayMode.Width, graphics.GraphicsDevice.DisplayMode.Height), new Rectangle(0, 255 - Scene.current.getTime(), 1, 1), Color.White);
             foreach(GameObject obj in Scene.current. gameObjects)
             {
-                spriteBatch.Draw(obj.texture, new Vector2(obj.x - (player.x - ((1920 / 2) - (player.getSourceRect().Width / 2))), obj.y), obj.getSourceRect(), Color.White, 0f, new Vector2(0,0), 1f, obj.effect, 1);
+                if(obj.isVisible) spriteBatch.Draw(obj.texture, new Vector2(obj.x - (player.x - ((1920 / 2) - (player.getSourceRect().Width / 2))), obj.y), obj.getSourceRect(), Color.White, 0f, new Vector2(0,0), 1f, obj.effect, 1);
             }
 
             blank.SetData<Color>(new Color[] { new Color(Color.DarkOrange, 255) });
